@@ -7,7 +7,7 @@ export const profile = {
   email: '', // Add your professional email to enable email CTAs
   whatsapp: '', // Add international-format number, digits only, e.g. 919876543210
   github: 'https://github.com/saikumarnagishetty',
-  instagram: '',
+  instagram: 'https://www.instagram.com/saiiixverse/',
   availability: 'OPEN FOR SELECT PROJECTS',
 };
 export const projects = [
