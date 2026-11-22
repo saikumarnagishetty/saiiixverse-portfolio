@@ -29,3 +29,24 @@
 @media(min-width:701px) and (max-width:1100px){.hero-photo{right:-2%;width:51vw;height:calc(100% - 150px)}.hero h1{font-size:clamp(65px,8.1vw,100px);max-width:620px}.hero-bottom p{max-width:310px}.hero::before{right:-12%;width:65vw}}
 @media(max-width:700px){.hero{height:850px;min-height:790px;align-items:flex-start;background:radial-gradient(ellipse at 65% 32%,#261b42,#08080e 70%)}.hero::before{width:115vw;right:-22%;top:8%;opacity:.55}.hero-photo{inset:85px 0 auto 0;width:100%;height:410px;background-position:center bottom;filter:drop-shadow(0 15px 28px rgba(5,4,12,.35));animation:portraitEnter 1.1s ease both,portraitFloat 8s ease-in-out 1.1s infinite}.hero::after{background:linear-gradient(0deg,#08080e 0%,transparent 36%)}.hero-content{padding-top:490px}.hero h1{font-size:clamp(53px,13vw,86px);margin:22px 0 24px;max-width:100%}.hero-kicker{font-size:8px;letter-spacing:1.2px}.hero-bottom{gap:12px}.hero-bottom p{font-size:13px;line-height:1.6;max-width:350px}.hero-actions{gap:15px}.hero .pill{padding:14px 17px;font-size:9px;gap:14px}.hero .text-link{font-size:9px}.hero .scene{inset:70px -30% 36% 0;opacity:.07}.hero .hero-side{display:none}.hero .scroll-indicator{left:19px;bottom:16px;font-size:8px}}
 @media(prefers-reduced-motion:reduce){.hero-photo,.hero::before,.hero-glow{animation:none!important;translate:none!important}}
+
+
+/* SAIIIXVERSE — left portrait / right editorial hero layout */
+@media(min-width:701px){
+.hero{background:radial-gradient(ellipse at 25% 52%,#25183e 0%,#11101d 36%,#08080e 75%)}
+.hero::before{right:auto;left:-4%}
+.hero-photo{left:2%;right:auto;width:min(44vw,650px);background-position:center bottom}
+.hero .scene{inset:0 54% 0 0;mask-image:linear-gradient(270deg,transparent,#000 30%)}
+.hero-content{padding-left:46%;padding-top:95px}
+.hero h1{font-size:clamp(62px,6.6vw,112px);max-width:100%;letter-spacing:-.085em}
+.hero-bottom{max-width:100%}
+.hero-bottom p{max-width:390px}
+.hero .hero-side{right:18px}
+}
+@media(min-width:701px) and (max-width:1100px){
+.hero-photo{left:-4%;right:auto;width:51vw}
+.hero-content{padding-left:45%}
+.hero h1{font-size:clamp(53px,6.5vw,76px)}
+.hero::before{left:-15%;right:auto}
+}
+@media(max-width:700px){.hero-content{padding-left:0}}
