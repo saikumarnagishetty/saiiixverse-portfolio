@@ -50,3 +50,8 @@
 .hero::before{left:-15%;right:auto}
 }
 @media(max-width:700px){.hero-content{padding-left:0}}
+
+/* SAIIIXVERSE official logo — responsive navbar */
+.nav .brand-logo{display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:210px;height:64px;overflow:hidden}
+.nav .brand-logo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;filter:contrast(1.08);mix-blend-mode:screen}
+@media(max-width:700px){.nav .brand-logo{width:152px;height:52px}}
