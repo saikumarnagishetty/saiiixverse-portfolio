@@ -12,8 +12,8 @@ export const profile = {
 };
 export const projects = [
   {number:'01',title:'JARVIS — MY AI',kind:'AI / VOICE / AUTOMATION',year:'2026',description:'A voice-first AI assistant exploring speech recognition, natural conversation and permission-aware desktop actions.',tags:['Python','Gnani AI','Gemini'],color:'violet',link:'',featured:true},
-  {number:'02',title:'TRACEBACK',kind:'FULL-STACK / WEB APP',year:'2026',description:'An application project showcasing practical web engineering, structured data and user-facing workflows.',tags:['Web Development','Database','UI/UX'],color:'blue',link:'https://github.com/saikumarnagishetty/TRACEBACK'},
-  {number:'03',title:'INTELLIGENT SYSTEMS',kind:'AI / MACHINE LEARNING',year:'2026',description:'A collection of prediction, classification and recommendation experiments using applied machine learning.',tags:['Python','Machine Learning','Data'],color:'pink',link:'https://github.com/saikumarnagishetty/OIBSIP'},
+  {number:'02',title:'TRACEBACK',kind:'FULL-STACK / WEB APP',year:'2026',description:'An application project showcasing practical web engineering, structured data and user-facing workflows.',tags:['Web Development','Database','UI/UX'],color:'blue',link:''},
+  {number:'03',title:'INTELLIGENT SYSTEMS',kind:'AI / MACHINE LEARNING',year:'2026',description:'A collection of prediction, classification and recommendation experiments using applied machine learning.',tags:['Python','Machine Learning','Data'],color:'pink',link:''},
 ];
 export const services = [
   {number:'01',title:'AI & Automation',description:'Practical assistants, intelligent workflows, API integrations and AI-powered experiences.',icon:'✳'},
