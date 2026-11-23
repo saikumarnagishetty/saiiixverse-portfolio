@@ -4,7 +4,7 @@ export const profile = {
   name: 'Sai Kumar',
   tagline: 'Beyond code. Beyond creativity.',
   intro: 'I build intelligent digital products and craft visuals that make people stop scrolling.',
-  email: '', // Add your professional email to enable email CTAs
+  email: 'nagishettysaikumarpatel@gmail.com', // Professional contact email
   whatsapp: '', // Add international-format number, digits only, e.g. 919876543210
   github: 'https://github.com/saikumarnagishetty',
   instagram: 'https://www.instagram.com/saiiixverse/',
